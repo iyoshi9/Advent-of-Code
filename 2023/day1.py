@@ -3,4 +3,5 @@ file = open("Day_1.txt",'r')
 pattern = re.compile('[a-z]')
 for line in file.readlines():
     if pattern.match(line):
-        print(line)
+        sub = pattern.sub("",line)
+        print(sub)           
