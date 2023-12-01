@@ -5,3 +5,5 @@ for line in file.readlines():
     if pattern.match(line):
         sub = pattern.sub("",line)
         print(sub)           
+for line in sub:
+    
