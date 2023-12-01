@@ -1,6 +1,6 @@
 
 
-list_of_lines = open('day1.txt', 'r')
+list_of_lines = open('Day_1.txt', 'r')
 list_of_lines = list_of_lines.readlines()
 data_list = []
 for entry in list_of_lines:
