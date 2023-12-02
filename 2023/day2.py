@@ -4,8 +4,8 @@
 file = open("Day_2.txt",'r')
 sum = 0
 for entry in file:
-    line_cleaned = entry.strip().split()
-    if red <= 12 and green <= 13 and blue <= 14 :
+    line = entry.strip().split()
+    if "red" <= 12 and "green" <= 13 and "blue" <= 14 :
         continue
-    sum = sum + line_cleaned[0]
+    sum = sum + int(line[1])
 print(sum)
