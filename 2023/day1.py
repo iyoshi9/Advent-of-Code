@@ -6,4 +6,5 @@ for line in file.readlines():
         sub = pattern.sub("",line)
         print(sub)           
 for line in sub:
-    
+    pass
+# Need to get my code to look at the first and last number and put them together. Lastly get the sum of all numbers.
