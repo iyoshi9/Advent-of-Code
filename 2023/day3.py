@@ -1,4 +1,5 @@
 
+# Part 1
 file = open("Day_3.txt",'r')
 sum = 0
 

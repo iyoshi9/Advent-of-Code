@@ -1,5 +1,5 @@
 
-#Part 1
+# Part 1
 file = open("Day_4.txt",'r')
 points = 0
 score = 0
@@ -21,7 +21,7 @@ for entry in file:
 print(points)    
 
 
-#Part 2
+# Part 2
 file = open("Day_4.txt",'r')
 scratch = 0
 for entry in file:

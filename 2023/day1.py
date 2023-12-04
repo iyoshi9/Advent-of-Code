@@ -1,4 +1,6 @@
 import re
+
+# Part 1
 file = open("Day_1.txt",'r')
 pattern = re.compile('[a-z]')
 for line in file.readlines():
