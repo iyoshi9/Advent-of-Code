@@ -2,7 +2,7 @@ import re
 
 # Part 1
 # Two ideas that both not really working
-list_of_lines = open('Day_1.txt', 'r')
+file = open('Day_1.txt', 'r')
 #pattern = re.compile('[a-z]')
 #data_list = []
 #for entry in list_of_lines:
@@ -10,7 +10,7 @@ list_of_lines = open('Day_1.txt', 'r')
 #    data_list.append(number)
 #print(data_list)    
 pattern = re.compile(".*[0-9]")
-for entry in list_of_lines:
+for entry in file:
     number = pattern.match(entry).group()
     print(number)
 
